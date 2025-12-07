@@ -1,1 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <!-- fondo transparente -->
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#4cc29a"/>
+    </linearGradient>
+  </defs>
 
+  <!-- icono: dos arcos formando un puente / conexión -->
+  <g transform="translate(40,20)">
+    <path d="M20 80 C80 10, 200 10, 260 80" stroke="url(#g)" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M20 110 C80 40, 200 40, 260 110" stroke="#1f6feb" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="260" cy="95" r="6" fill="#4cc29a"/>
+  </g>
+
+  <!-- texto -->
+  <text x="340" y="95" font-family="Inter, Arial, sans-serif" font-size="44" fill="#0f1724" font-weight="700">CoAI Network</text>
+  <text x="340" y="130" font-family="Inter, Arial, sans-serif" font-size="16" fill="#374151">Collaborative • Responsible • Human-centered</text>
+</svg>
