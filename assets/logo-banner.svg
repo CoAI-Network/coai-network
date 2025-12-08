@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#4cc29a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icono del puente ampliado -->
+  <g transform="translate(0,30)">
+    <path d="M80 150 C200 30, 460 30, 580 150" stroke="url(#g)" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <path d="M80 200 C200 90, 460 90, 580 200" stroke="#1f6feb" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <circle cx="580" cy="175" r="14" fill="#4cc29a"/>
+  </g>
+
+  <!-- Texto -->
+  <text x="630" y="150" font-family="Inter, Arial, sans-serif" font-size="86" fill="#0f1724" font-weight="700">
+    CoAI Network
+  </text>
+
+  <text x="630" y="205" font-family="Inter, Arial, sans-serif" font-size="28" fill="#374151">
+    Collaborative • Responsible • Human-centered AI
+  </text>
+</svg>
