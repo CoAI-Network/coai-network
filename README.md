@@ -13,68 +13,85 @@ to ensure that Artificial Intelligence benefits everyone.
 
 ---
 
-## 🚀 Join & Participate
+# CoAI Network 🌍  
+**Collaborative · Responsible · Human-Centered AI**
 
-We are in our **Seed Phase** 🌱  
-👋 Everyone is welcome: experts, students, companies, and curious citizens.
+Welcome to **CoAI Network** — an open initiative connecting developers, researchers, ethicists, companies, and citizens to build AI that benefits everyone.
 
-📌 Start here:
-- 💬 Share your first thoughts:  
-  👉 [Introduce yourself on Discussions](../../discussions/1)
-- 🧩 Propose an idea or a project (Show & Tell soon)
-- 🎤 Suggest events, talks or collaborations
-
-If you want to contribute actively:
-> **Become a Founding Member** — help shape governance, ethics and events.  
-Send us a message in Discussions! ❤️
+We promote **transparency**, **safety**, **interdisciplinary collaboration** and **human dignity** in the age of Artificial Intelligence.
 
 ---
 
 ## 📖 Documentation
 
-Explore our foundations:
+Core values and operational pillars of the network:
 
-- 🌍 [Mission](./docs/mission.md)
-- ⭐ [Values](./docs/values.md)
-- ⚖️ [Code of Ethics](./docs/code-of-ethics.md)
-- 🤝 [Community Guidelines](./docs/community-guidelines.md)
-- 🔐 [Privacy Policy](./docs/privacy-policy.md)
-- ❓ [FAQ](./docs/faq.md)
-
----
-
-## 🧭 Structure
-
-coai-network/
-
-├─ docs/ → mission, values, ethics & guidelines
-
-├─ site/ → landing page and design assets
-
-├─ assets/ → logos, banners, images
-
-├─ events/ → talks, seminars, hackathons (coming soon)
-
-└─ projects/ → proposals, research, showcases (coming soon)
-
+- 📌 **Mission** → [Read our mission](./docs/mission.md)
+- 🌱 **Values** → [What we stand for](./docs/values.md)
+- 🧭 **Code of Ethics** → [Our ethical framework](./docs/code-of-ethics.md)
+- 🤝 **Community Guidelines** → [Norms for respectful collaboration](./docs/community-guidelines.md)
+- 🔐 **Privacy Policy** → [How we handle data](./docs/privacy-policy.md)
+- ❓ **FAQ** → [Start here if you’re new](./docs/faq.md)
 
 ---
 
-## 📬 Contact
+## 💬 Community & Dialogue
 
-While we set up our main communication channels:
+Join the conversation and shape the future of CoAI:
 
-- GitHub Discussions (active)
-- Discord / Matrix (coming soon)
-- Email contact (coming soon)
+👉 **Start here**:  
+https://github.com/CoAI-Network/coai-network/discussions
+
+We encourage:
+
+- Introductions and networking  
+- Ethical reflections  
+- Research sharing  
+- Project proposals  
+- Debate and constructive critique  
+
+Your voice matters. Help us build a safe and inspiring environment for collaborative AI development.
 
 ---
 
-<p align="center">
-🌱 CoAI Network — building an ethical and human-centered AI future, together.
-<br>
-© 2025 CoAI Network — All rights reserved.
-</p>
+## 🚀 How to Participate
+
+Ways you can contribute right now:
+
+| Activity | Where |
+|---------|------|
+| Join discussions, vote ideas | Discussions tab |
+| Propose a research or project | `projects/` (coming soon) |
+| Suggest documentation improvements | Pull Requests |
+| Participate in future talks/interviews | Events (coming soon) |
+
+---
+
+## 🧩 Project Structure (initial)
+
+/site → Public landing (Neocities)
+
+/docs → Core policies and foundational documents
+
+/events → Talks, webinars and community meetups
+
+/projects → Project proposals & showcases
+
+/assets → Logo and brand files
+
+
+---
+
+## 🏛 Governance
+
+Led initially by the founding team, evolving toward **transparent community governance** with votes and open moderation processes.
+
+Together, we build the norms and future of the network.
+
+---
+
+**CoAI Network — Collaborative · Responsible · Human-Centered AI**  
+Let’s shape tomorrow, together. 🤝✨
 
 
 
