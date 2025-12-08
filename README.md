@@ -46,10 +46,15 @@ Explore our foundations:
 ## 🧭 Structure
 
 coai-network/
+
 ├─ docs/ → mission, values, ethics & guidelines
+
 ├─ site/ → landing page and design assets
+
 ├─ assets/ → logos, banners, images
+
 ├─ events/ → talks, seminars, hackathons (coming soon)
+
 └─ projects/ → proposals, research, showcases (coming soon)
 
 
