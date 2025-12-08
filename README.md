@@ -65,10 +65,10 @@ Right now, you can:
 
 | Activity | Where |
 |---------|------|
-| Meet the community | [Welcome Thread](https://github.com/CoAI-Network/coai-network/discussions/1) |
-| Help refining core principles | [Mission & Values Thread](https://github.com/CoAI-Network/coai-network/discussions/2) |
-| Share your project | [Project Showcase Thread](https://github.com/CoAI-Network/coai-network/discussions/3) |
-| Influence governance | [Governance Thread](https://github.com/CoAI-Network/coai-network/discussions/4) |
+| Meet the community | [Welcome Thread](https://github.com/CoAI-Network/coai-network/discussions/2) |
+| Help refining core principles | [Mission & Values Thread](https://github.com/CoAI-Network/coai-network/discussions/3) |
+| Share your project | [Project Showcase Thread](https://github.com/CoAI-Network/coai-network/discussions/4) |
+| Influence governance | [Governance Thread](https://github.com/CoAI-Network/coai-network/discussions/5) |
 | Improve documentation | Pull Requests (open to all) |
 
 ---
