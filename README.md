@@ -1,15 +1,25 @@
-<p align="center">
-  <img src="./assets/logos/logo-full.svg" width="85%" alt="CoAI Network Banner"/>
-</p>
+<svg class="logo-bridge" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 600 200"
+     width="600" height="200">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#4cc29a"/>
+    </linearGradient>
+  </defs>
 
-<h3 align="center">
-Collaborative · Responsible · Human-Centered AI
-</h3>
+  <!-- Bridge centered -->
+  <g transform="translate(100,20)">
+    <path d="M0 80 C100 10, 300 10, 400 80"
+          stroke="url(#g)" stroke-width="14"
+          fill="none" stroke-linecap="round"/>
+    <path d="M0 115 C100 35, 300 35, 400 115"
+          stroke="#1f6feb" stroke-width="10"
+          fill="none" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="400" cy="95" r="8" fill="#4cc29a"/>
+  </g>
+</svg>
 
-<p align="center">
-A global space where developers, researchers, ethicists, companies, and citizens work together 
-to ensure that Artificial Intelligence benefits everyone.
-</p>
 
 ---
 
