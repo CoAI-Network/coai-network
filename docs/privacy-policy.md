@@ -1,7 +1,13 @@
-# Privacy Policy (Summary) — CoAI Network
+# Privacy Policy (Summary)
 
-CoAI Network collects only the minimum information needed to operate (public username, optional email, project descriptions). We do not share personal data without consent.
+CoAI Network collects only the minimum necessary information to operate
+our services (such as a public username, contact email if voluntarily
+provided, and descriptions of projects shared).
 
-We rely on third-party services (GitHub, Discord, Neocities). Users should review their policies as well.
+We do not sell or share personal data without consent.
 
-This is an initial policy and will be updated as the community grows.
+We currently rely on third-party platforms (GitHub, Discord, Neocities),
+therefore users should also review their individual policies.
+
+This initial version will evolve as our infrastructure expands and we
+implement authentication, dashboards, or newsletters.
