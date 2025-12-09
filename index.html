@@ -4,42 +4,68 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>CoAI Network — Collaborative, Responsible, Human-centered AI</title>
-  <meta name="description" content="CoAI Network: a global community for responsible, human-centered AI. Developers • Researchers • Ethicists • Industry" />
+  <meta name="description" content="CoAI Network: a global community for responsible, human-centered AI." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
   <style>
     :root {
       --bg: #fbfdff;
       --text: #0f1724;
       --muted: #6b7280;
-      --accent: linear-gradient(90deg,#1f6feb,#4cc29a);
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      font-family: Inter, system-ui, Arial;
     }
-    body { margin:0; background:var(--bg); color:var(--text); }
-    .wrap { max-width:900px; margin:48px auto; padding:24px; }
-    header { display:flex; gap:20px; align-items:center; }
-    .logo { width:260px; height:80px; }
-    h1 { margin:6px 0 2px; font-size:28px; }
-    p.lead { color:var(--muted); margin-top:0; }
-    .btn { display:inline-block; margin-right:10px; padding:10px 14px; border-radius:8px; text-decoration:none; color:white; font-weight:600; }
-    .btn-primary { background:linear-gradient(90deg,#1f6feb,#4cc29a); }
-    .btn-ghost { border:1px solid #e6eef8; color:var(--text); background:white; }
-    section { margin-top:28px; padding:18px; background:white; border-radius:12px; box-shadow:0 6px 24px rgba(16,24,40,0.04); }
-    .grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
-    footer { margin-top:28px; color:var(--muted); font-size:13px; text-align:center; }
-    a.small { color:var(--muted); text-decoration:underline; font-size:13px; }
-    @media (max-width:720px){ .grid { grid-template-columns:1fr; } .logo { width:180px; height:56px; } }
+    body {
+      margin:0; background:var(--bg); color:var(--text);
+    }
+    .wrap {
+      max-width:900px; margin:48px auto; padding:24px;
+    }
+    header { text-align:center; margin-bottom:24px; }
+    h1 { font-size:28px; margin-top:6px; }
+    p.lead { max-width:720px; margin:8px auto 0; color:var(--muted); }
 
-   
-    header .text-block {
-      margin-top: 18px;
+    section {
+      margin-top:28px; padding:18px; background:white;
+      border-radius:12px; box-shadow:0 6px 24px rgba(16,24,40,0.04);
+    }
+    .grid {
+      display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px;
+    }
+    .btn {
+      padding:10px 14px; display:inline-block; border-radius:8px;
+      text-decoration:none; font-weight:600; color:white;
+      background:linear-gradient(90deg,#1f6feb,#4cc29a);
+    }
+    footer {
+      text-align:center; margin-top:28px; font-size:13px; color:var(--muted);
+    }
+    a.small { font-size:13px; color:var(--muted); text-decoration:underline; }
+
+    /* Bridge fade-up animation */
+    .logo-bridge {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 1s ease, transform 1.2s ease;
+    }
+    .logo-bridge.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media(max-width:720px){
+      .grid { grid-template-columns:1fr; }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
+<div class="wrap">
 
-      
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<header>
+<svg class="logo-bridge" xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 600 200"
+     width="600" height="200">
   <defs>
     <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0" stop-color="#1f6feb"/>
@@ -47,13 +73,15 @@
     </linearGradient>
   </defs>
 
-  <!-- Ajustado: +20px extra hacia arriba -->
-  <g transform="translate(90, -50) scale(2.3)">
-    <path d="M20 80 C80 10, 200 10, 260 80"
-          stroke="url(#g)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-    <path d="M20 110 C80 40, 200 40, 260 110"
-          stroke="#1f6feb" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.9"/>
-    <circle cx="260" cy="95" r="3.5" fill="#4cc29a"/>
+  <!-- Bridge centered -->
+  <g transform="translate(100,20)">
+    <path d="M0 80 C100 10, 300 10, 400 80"
+          stroke="url(#g)" stroke-width="14"
+          fill="none" stroke-linecap="round"/>
+    <path d="M0 115 C100 35, 300 35, 400 115"
+          stroke="#1f6feb" stroke-width="10"
+          fill="none" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="400" cy="95" r="8" fill="#4cc29a"/>
   </g>
 </svg>
 
@@ -61,69 +89,81 @@
 
 
 
+  <h1>CoAI Network</h1>
+  <p class="lead">
+    A global community for responsible, human-centered AI.<br>
+    Developers • Researchers • Ethicists • Industry • Citizens
+  </p>
+</header>
 
-      <!-- END LOGO SECTION -->
-
-      <div class="text-block">
-        <h1>CoAI Network</h1>
-        <p class="lead">A global community for responsible, human-centered AI. Developers • Researchers • Ethicists • Industry • Citizens</p>
-        <p>
-          <a class="btn btn-primary" href="#" id="join-now">Join the community</a>
-          <a class="btn btn-ghost" href="#" id="learn-more">Read our mission</a>
-        </p>
-      </div>
-    </header>
-
-    <!-- Everything below this line remains unchanged -->
-    <section>
-      <h2>What we do</h2>
-      <div class="grid">
-        <div>
-          <h3>Community & Forum</h3>
-          <p>Discussion spaces for ethics, research, healthcare, hardware, startups and public engagement. Open to experts and curious citizens.</p>
-        </div>
-        <div>
-          <h3>News & Interviews</h3>
-          <p>Weekly curated news and interviews with researchers, companies and thought leaders to spotlight responsible innovation.</p>
-        </div>
-        <div>
-          <h3>Project Showcase</h3>
-          <p>Place to present projects, find partners, and connect with ethical investors and collaborators.</p>
-        </div>
-        <div>
-          <h3>Events & Learning</h3>
-          <p>Monthly seminars, hackathons and learning resources to upskill community members and promote safe practices.</p>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Get involved</h2>
-      <p>We are starting our seed phase. If you want to be one of the first members, present a project or propose a talk, sign up here:</p>
-      <p><a class="btn btn-primary" href="#" id="signup">Sign up (coming soon)</a></p>
-    </section>
-
-    <section>
-      <h2>Contact & Links</h2>
-      <p style="margin:0 0 8px 0">Placeholder links while we set up the community:</p>
-      <ul style="margin:0; padding-left:18px; color:var(--muted)">
-        <li>Forum / Discussions: <a href="#" class="small">GitHub Discussions (soon)</a></li>
-        <li>Chat & events: <a href="#" class="small">Discord / Matrix (soon)</a></li>
-        <li>Repository & docs: <a href="#" class="small">GitHub - synergy-hub</a></li>
-      </ul>
-    </section>
-
-    <footer>
-      CoAI Network — Collaborative • Responsible • Human-centered AI. <br>
-      © <span id="year"></span> CoAI Network. All rights reserved.
-    </footer>
+<section>
+  <h2>What we do</h2>
+  <div class="grid">
+    <div><h3>Community & Forum</h3><p>Interdisciplinary collaboration for the future of AI.</p></div>
+    <div><h3>News & Interviews</h3><p>Spotlighting responsible and ethical innovation.</p></div>
+    <div><h3>Projects</h3><p>Showcase ideas, find partners and collaborators.</p></div>
+    <div><h3>Events & Learning</h3><p>Talks, workshops, hackathons and knowledge sharing.</p></div>
   </div>
+</section>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    document.getElementById('join-now').href = "#signup";
-    document.getElementById('learn-more').href = "#mission";
-  </script>
+<section>
+  <h2>Mission</h2>
+  <p>CoAI Network exists to connect developers, researchers, companies, ethicists and citizens in building responsible, human-centered AI.</p>
+  
+</section>
+
+<section>
+  <h2>Vision</h2>
+  <p>We envision a global community where collaboration and ethics guide AI innovation for the benefit of all.</p>
+
+</section>
+
+<section>
+  <h2>Join the Community</h2>
+  <p>Become one of our early contributors and help shape a responsible AI future.</p>
+  <p style="margin-top:14px;">
+    <a class="btn" href="https://discord.gg/y2nubRmns6">Join Discord</a>
+  </p>
+</section>
+
+<section>
+  <h2>Get Involved</h2>
+  <p>Engage in governance, propose projects, contribute knowledge.</p>
+  <p><a class="btn" href="https://github.com/CoAI-Network/coai-network/discussions">Join Discussions</a></p>
+</section>
+
+<section>
+  <h2>Contact & Links</h2>
+  <ul style="padding-left:18px; color:var(--muted)">
+    <li>Forum: <a class="small" href="https://github.com/CoAI-Network/coai-network/discussions">GitHub Discussions</a></li>
+    <li>Chat: <a class="small" href="https://discord.gg/y2nubRmns6">Discord</a></li>
+    <li>Repository & Docs: <a class="small" href="https://github.com/CoAI-Network/coai-network">GitHub</a></li>
+  </ul>
+</section>
+
+<footer>
+  CoAI Network — Collaborative · Responsible · Human-centered AI<br>
+  © <span id="year"></span> CoAI Network
+</footer>
+
+</div>
+
+<script>
+// auto-year
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// fade-in bridge animation
+const bridge = document.querySelector('.logo-bridge');
+function checkBridge() {
+  const rect = bridge.getBoundingClientRect();
+  if (rect.top < window.innerHeight * 0.85) {
+    bridge.classList.add('visible');
+    window.removeEventListener('scroll', checkBridge);
+  }
+}
+window.addEventListener('scroll', checkBridge);
+checkBridge();
+</script>
+
 </body>
 </html>
-
