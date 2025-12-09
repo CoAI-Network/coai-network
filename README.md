@@ -59,7 +59,7 @@ Find answers to common questions about participation, projects, and community li
 
 ## 🌍 How to Participate
 - Join our [GitHub Discussions](https://github.com/CoAI-Network/coai-network/discussions).  
-- Connect with us on Discord (link coming soon).  
+- Connect with us on [Discord](https://discord.gg/4WT3TsSBWH).  
 - Contribute to projects, share ideas, or propose improvements.  
 - Engage in debates, interviews, and collaborative events.  
 
