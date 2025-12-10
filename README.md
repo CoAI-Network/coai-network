@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/coai-bridge.png" alt="CoAI Network bridge logo" width="320"/>
+</p>
+
 # CoAI Network 🌍  
 **Collaborative · Responsible · Human-Centered AI**
 
