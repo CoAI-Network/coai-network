@@ -82,6 +82,26 @@ Together, we can shape a future where innovation and responsibility go hand in h
 
 ---
 
+## 📚 Explore the CoAI Knowledge Wiki
+
+Our community maintains a growing, collaborative knowledge base documenting  
+the **people, ideas, technologies, breakthroughs and ethical foundations** shaping Artificial Intelligence.
+
+The Wiki includes:
+- Researchers & Thought Leaders  
+- Companies & Labs  
+- AI Models and Architectures  
+- Tools & Frameworks  
+- Ethics, Governance & Responsible AI  
+- Key Papers  
+- Applications (healthcare, education, industry…)  
+- And a full **Responsible AI Timeline**
+
+👉 **Visit the Wiki:** https://github.com/CoAI-Network/coai-network/wiki  
+👉 **Start Contributing:** follow our [Getting Started](https://github.com/CoAI-Network/coai-network/wiki/Template) guide  
+
+---
+
 ## 📄 License
 
 The **CoAI Network Wiki** is published under a  
